@@ -14,6 +14,10 @@ Conclusion
 Lazy loading is a additional way to improve the page's loading time and overall performance. 
 You only need 1-2 minutes to install this magento extension.
 
+## MORE INFORMATION
+
+[http://www.mgt-commerce.com/magento-lazy-load-images.html](http://www.mgt-commerce.com/magento-lazy-load-images.html)
+
 ## INSTALLATION
 -----------------
 
