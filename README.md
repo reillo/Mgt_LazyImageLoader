@@ -1,4 +1,4 @@
-Lazy Image Loader For Magento
+Mgt Lazy Image Loader For Magento
 ====================================
 
 ## FEATURES
@@ -12,9 +12,20 @@ A very good solution to this is to load your images on demand, or what is most c
 
 Conclusion
 Lazy loading is a additional way to improve the page's loading time and overall performance. 
-You only need 1-2 minutes to install this module.
+You only need 1-2 minutes to install this magento extension.
 
 ## INSTALLATION
 -----------------
 
-visit http://www.mgt-commerce.com/magento-lazy-image-loader.html
+1. Extract zip archive and copy contents to the app/folder of your Magento installation
+2. Open the file "app/design/frontend/default/default/catalog/product/list.phtml"
+
+ search for
+  <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>"
+ width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product,      'small_image'), null, true) ?>" />
+
+replace with
+
+<img class="lazy" src="<?php echo $this->getSkinUrl('images/mgt_lazy_image_loader/loader.gif'); ?>" data-src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+    
+3. Clear the cache in Admin > System > Cache Management

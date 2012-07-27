@@ -5,6 +5,13 @@
             <version>1.0.4</version>
         </Mgt_LazyImageLoader>
     </modules>
+     <global>
+        <helpers>
+            <mgt_lazy_image_loader>
+                <class>Mgt_LazyImageLoader_Helper</class>
+            </mgt_lazy_image_loader>
+        </helpers>
+    </global>
     <frontend>
         <layout>
             <updates>
