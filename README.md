@@ -23,8 +23,8 @@ You only need 1-2 minutes to install this magento extension.
  <pre>
 <code>
  search for
-  <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>"
- width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product,      'small_image'), null, true) ?>" />
+  &lt;img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>"
+ width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product,      'small_image'), null, true) ?>" /&gt;
 </code>
 </pre>
 
@@ -32,7 +32,7 @@ You only need 1-2 minutes to install this magento extension.
 <pre>
 <code>
 replace with
-<img class="lazy" src="<?php echo $this->getSkinUrl('images/mgt_lazy_image_loader/loader.gif'); ?>" data-src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+&lt;img class="lazy" src="<?php echo $this->getSkinUrl('images/mgt_lazy_image_loader/loader.gif'); ?>" data-src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /&gt;
   </cody>
 </pre>
     
