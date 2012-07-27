@@ -41,3 +41,22 @@ replace with
 </pre>
     
 3. Clear the cache in Admin > System > Cache Management
+
+## CHANGELOG
+
+1.0.4
+
+* Add newest jquery version
+* Change namespace to Mgt
+
+1.0.3
+
+* Fixed typo in template
+
+1.0.1
+
+* Add lazy loading in catalog search results
+
+1.0.0
+
+* Fix typo
