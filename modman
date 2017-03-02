@@ -1,0 +1,17 @@
+htdocs/app/code/community/Mgt/LazyImageLoader/Helper/Data.php                app/code/community/Mgt/LazyImageLoader/Helper/Data.php
+htdocs/app/code/community/Mgt/LazyImageLoader/changelog                      app/code/community/Mgt/LazyImageLoader/changelog
+htdocs/app/code/community/Mgt/LazyImageLoader/etc/config.xml                 app/code/community/Mgt/LazyImageLoader/etc/config.xml
+htdocs/app/code/local/Mgt/Base/Block/Adminhtml/Shop.php                      app/code/local/Mgt/Base/Block/Adminhtml/Shop.php
+htdocs/app/code/local/Mgt/Base/Helper/Data.php                               app/code/local/Mgt/Base/Helper/Data.php
+htdocs/app/code/local/Mgt/Base/Model/Feed.php                                app/code/local/Mgt/Base/Model/Feed.php
+htdocs/app/code/local/Mgt/Base/Model/Source/Updates/Type.php                 app/code/local/Mgt/Base/Model/Source/Updates/Type.php
+htdocs/app/code/local/Mgt/Base/controllers/Adminhtml/MgtController.php       app/code/local/Mgt/Base/controllers/Adminhtml/MgtController.php
+htdocs/app/code/local/Mgt/Base/etc/adminhtml.xml                             app/code/local/Mgt/Base/etc/adminhtml.xml
+htdocs/app/code/local/Mgt/Base/etc/config.xml                                app/code/local/Mgt/Base/etc/config.xml
+htdocs/app/code/local/Mgt/Base/etc/system.xml                                app/code/local/Mgt/Base/etc/system.xml
+htdocs/app/code/local/Mgt/Base/sql/mgt_base_setup/mysql4-install-1.0.0.0.php app/code/local/Mgt/Base/sql/mgt_base_setup/mysql4-install-1.0.0.0.php
+htdocs/app/design/frontend/default/default/layout/mgt_lazy_image_loader.xml  app/design/frontend/default/default/layout/mgt_lazy_image_loader.xml
+htdocs/app/etc/modules/Mgt_Base.xml                                          app/etc/modules/Mgt_Base.xml
+htdocs/app/etc/modules/Mgt_LazyImageLoader.xml                               app/etc/modules/Mgt_LazyImageLoader.xml
+htdocs/skin/frontend/default/default/images/mgt_lazy_image_loader            skin/frontend/default/default/images/mgt_lazy_image_loader
+htdocs/skin/frontend/default/default/js/mgt_lazy_image_loader                skin/frontend/default/default/js/mgt_lazy_image_loader

@@ -1,0 +1,16 @@
+{
+    "name": "mgt/LazyImageLoader",
+    "description": "There are many ways to improve the performance of your magento store. All shop owners will know that product images play an important part. However, there is one problem with this. The more images you have, the slower the site loads and utilizes more bandwidth. A very good solution to this is to load your images on demand, or what is most commonly known as lazy loading.",
+    "homepage": "https://github.com/reillo/Mgt_LazyImageLoader",
+    "type": "magento-module",
+    "require": {
+        "php": ">=5.3.3",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "extra": {
+        "magento-root-dir": "magento"
+    }
+}
