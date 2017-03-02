@@ -10,8 +10,8 @@ htdocs/app/code/local/Mgt/Base/etc/adminhtml.xml                             app
 htdocs/app/code/local/Mgt/Base/etc/config.xml                                app/code/local/Mgt/Base/etc/config.xml
 htdocs/app/code/local/Mgt/Base/etc/system.xml                                app/code/local/Mgt/Base/etc/system.xml
 htdocs/app/code/local/Mgt/Base/sql/mgt_base_setup/mysql4-install-1.0.0.0.php app/code/local/Mgt/Base/sql/mgt_base_setup/mysql4-install-1.0.0.0.php
-htdocs/app/design/frontend/default/default/layout/mgt_lazy_image_loader.xml  app/design/frontend/default/default/layout/mgt_lazy_image_loader.xml
+htdocs/app/design/frontend/base/default/layout/mgt_lazy_image_loader.xml  app/design/frontend/base/default/layout/mgt_lazy_image_loader.xml
 htdocs/app/etc/modules/Mgt_Base.xml                                          app/etc/modules/Mgt_Base.xml
 htdocs/app/etc/modules/Mgt_LazyImageLoader.xml                               app/etc/modules/Mgt_LazyImageLoader.xml
-htdocs/skin/frontend/default/default/images/mgt_lazy_image_loader            skin/frontend/default/default/images/mgt_lazy_image_loader
-htdocs/skin/frontend/default/default/js/mgt_lazy_image_loader                skin/frontend/default/default/js/mgt_lazy_image_loader
+htdocs/skin/frontend/base/default/images/mgt_lazy_image_loader            skin/frontend/base/default/images/mgt_lazy_image_loader
+htdocs/skin/frontend/base/default/js/mgt_lazy_image_loader                skin/frontend/base/default/js/mgt_lazy_image_loader
